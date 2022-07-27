@@ -7,6 +7,7 @@ def Salario():
     ganhaHora = int(input("quanto você ganha por hora "))
     horasDia = int(input("quantas horas por dia você trabalha?? "))
     trabFind = (input("trabalha final de semana?? (S/N) "))
+    
     if(trabFind == "S"):
         # 26 porque segundos as normas trabalhistas para quem trabalha a semana completa, tem q ter uma folga fixa/semana e um dom/mês. dom(-1) fixa(-4)
         horasMes = horasDia*26

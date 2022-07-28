@@ -7,5 +7,5 @@ function espelhoNum(lista, num) {
     return 
 }
 
-lista = []
+let lista = []
 espelhoNum(lista, 6)

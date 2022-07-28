@@ -1,7 +1,7 @@
 
-gabarito = [["A", "B", "D", "E", "E", "A", "E", "C", "B", "A"], ["A", "D", "B", "E", "E", "A", "E", "C", "B", "A"], ["A", "B", "C", "E", "A", "A", "E", "C", "B", "A"], ["A", "B", "D", "E", "E", "A", "E", "C", "B", "A"], ["A", "B", "D", "E", "E", "A", "E", "C", "B", "A"]]
-pontos = 0
-notas = []
+let gabarito = [["A", "B", "D", "E", "E", "A", "E", "C", "B", "A"], ["A", "D", "B", "E", "E", "A", "E", "C", "B", "A"], ["A", "B", "C", "E", "A", "A", "E", "C", "B", "A"], ["A", "B", "D", "E", "E", "A", "E", "C", "B", "A"], ["A", "B", "D", "E", "E", "A", "E", "C", "B", "A"]]
+let pontos = 0
+let notas = []
 console.log(gabarito[0][1])
 
 for (d = 0; d < gabarito.length; i++){

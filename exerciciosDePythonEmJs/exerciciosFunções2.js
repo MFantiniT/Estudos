@@ -7,5 +7,5 @@ function ordemLinear(lista, num) {
     return 
 }
 
-lista = []
+let lista = []
 ordemLinear(lista, 6)

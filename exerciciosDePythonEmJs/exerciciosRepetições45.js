@@ -4,7 +4,7 @@ let pontos = 0
 let notas = []
 console.log(gabarito[0][1])
 
-for (d = 0; d < gabarito.length; i++){
+for (d = 0; d < gabarito.length; i++) {
     for (let i = 0; i < gabarito[d][0].length; i++) {
         if (i == 1 && gabarito[0] == "A")
             pontos += 1
@@ -36,6 +36,7 @@ for (d = 0; d < gabarito.length; i++){
         if (i == 10 && gabarito[9] == "A")
             pontos += 1
 
-    }}
+    }
+}
 notas.push(pontos)
 console.log(notas)

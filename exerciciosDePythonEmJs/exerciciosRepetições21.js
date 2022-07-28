@@ -1,7 +1,7 @@
-num = 11
+let num = 11
 for (i = 1; i <= num; i++)
     lista = []
-divisor = 0
+let divisor = 0
 // lista.forEach(multiplicador => {
 //     if(multiplicador%num==0)
 //     divisor+=1    

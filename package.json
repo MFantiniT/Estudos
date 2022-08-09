@@ -1,0 +1,23 @@
+{
+  "name": "estudos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercicioNode1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFantiniT/EstudosJsBackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MFantiniT/EstudosJsBackEnd/issues"
+  },
+  "homepage": "https://github.com/MFantiniT/EstudosJsBackEnd#readme",
+  "dependencies": {
+    "got": "^11.0.2"
+  }
+}

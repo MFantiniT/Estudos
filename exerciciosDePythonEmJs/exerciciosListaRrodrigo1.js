@@ -8,6 +8,14 @@ let horas = data.getHours();
 console.log(horas);
 let minutos = data.getMinutes();
 let segundos = data.getSeconds();
+if(minutos[0]=== 0){
+    console.log(data.getHours() + ":0" + data.getMinutes() + ":" + data.getSeconds());
+}
+else{
+    console.log(data.getHours() + ":" + data.getMinutes() + ":" + data.getSeconds());
+}
+
+
 // let diaNoite = (horas >= 12) ? " pm " : " am ";
 // horas = (horas >= 12) ? horas - 12 : horas;
 // if (horas === 0 && diaNoite === ' PM ') {
@@ -32,4 +40,3 @@ let segundos = data.getSeconds();
 // }
 // console.log("horas : " + horas + diaNoite + " : " + minutos + " : " + segundos);
 console.log("horas : " + horas + "H : " + minutos + "M : " + segundos + "S");
-console.log(data.getHours() + ":" + data.getMinutes() + ":" + data.getSeconds());

@@ -32,3 +32,4 @@ let segundos = data.getSeconds();
 // }
 // console.log("horas : " + horas + diaNoite + " : " + minutos + " : " + segundos);
 console.log("horas : " + horas + "H : " + minutos + "M : " + segundos + "S");
+console.log(data.getHours() + ":" + data.getMinutes() + ":" + data.getSeconds());

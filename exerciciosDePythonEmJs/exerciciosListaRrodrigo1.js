@@ -1,14 +1,14 @@
 let data = new Date();
-console.log(data)
+console.log(data);
 let dia = data.getDay();
-console.log(dia)
+console.log(dia);
 let listaDias = ["Segunda", "Terça", "Quarta", "Quinta ", "Sexta", "Sábado", "Domingo"];
 console.log("Ho.je é : " + listaDias[dia] + ".");
 let horas = data.getHours();
-console.log(horas)
+console.log(horas);
 let minutos = data.getMinutes();
 let segundos = data.getSeconds();
-// let diaNoite = (horas >= 12) ? " PM " : " AM ";
+// let diaNoite = (horas >= 12) ? " pm " : " am ";
 // horas = (horas >= 12) ? horas - 12 : horas;
 // if (horas === 0 && diaNoite === ' PM ') {
 //     if (minutos === 0 && segundos === 0) {

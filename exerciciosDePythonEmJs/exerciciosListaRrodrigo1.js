@@ -3,7 +3,7 @@ console.log(data);
 let dia = data.getDay();
 console.log(dia);
 let listaDias = ["Segunda", "Terça", "Quarta", "Quinta ", "Sexta", "Sábado", "Domingo"];
-console.log("Ho.je é : " + listaDias[dia] + ".");
+console.log("Hoje é : " + listaDias[dia] + ".");
 let horas = data.getHours();
 console.log(horas);
 let minutos = data.getMinutes();

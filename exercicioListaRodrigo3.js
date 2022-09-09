@@ -1,17 +1,23 @@
 let data = new Date();
-ano = data.getFullYear();
-console.log(ano);
-mes = (data.getMonth() + 1)+"";
-console.log(mes);
-dia = data.getDate();
+ano = data.getFullYear() + "";
+mes = (data.getMonth() + 1) + "";
+dia = (data.getDate()) + "";
+dataHoje = 0
 
-console.log(dia)
 if (mes.length === 1) {
-    console.log(`Data: ${dia}/ 0${mes}/ ${ano}`);
+
+    if (dia.length === 1) {
+        dataHoje = `Data: 0${dia}/ 0${mes}/ ${ano.substring(2)}`
+    }
+    else {
+        dataHoje = `Data: ${dia}/ 0${mes}/ ${ano}`
+    }
 }
 else {
     console.log(`Data: ${dia}/ ${mes}/ ${ano}`)
 }
+console.log(dataHoje)
 
-// console.log(mes.length)
+
+
 

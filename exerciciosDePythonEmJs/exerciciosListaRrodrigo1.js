@@ -8,10 +8,10 @@ let horas = data.getHours();
 console.log(horas);
 let minutos = data.getMinutes();
 let segundos = data.getSeconds();
-if(minutos[0]=== 0){
+if (minutos[0] === 0) {
     console.log(data.getHours() + ":0" + data.getMinutes() + ":" + data.getSeconds());
 }
-else{
+else {
     console.log(data.getHours() + ":" + data.getMinutes() + ":" + data.getSeconds());
 }
 

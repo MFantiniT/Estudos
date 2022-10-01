@@ -3,13 +3,13 @@
 
 // Reverso do número. Faça uma função que retorne o reverso de um número inteiro informado. Por exemplo: 127 -> 721.
 
-function numReverse(num,numReves) {
-    for(i=num.length-1;i>=0;i--){
-        numReves+=num[i]
+function numReverse(num, numReves) {
+    for (i = num.length - 1; i >= 0; i--) {
+        numReves += num[i]
     }
     return console.log(numReves)
 }
 let num = "9876543210"
-let numReves =""
+let numReves = ""
 
-numReverse(num,numReves)
+numReverse(num, numReves)

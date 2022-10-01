@@ -2,10 +2,10 @@
 
 string = "pyyyrado"
 py = 'Py'
-if (string.substring(0, 2) == 'Py' || string.substring(0, 2) == 'py'){
+if (string.substring(0, 2) == 'Py' || string.substring(0, 2) == 'py') {
     console.log(string)
 }
 
-else{
-    console.log(py+string)
+else {
+    console.log(py + string)
 }

@@ -1,10 +1,10 @@
 function ordemLinear(lista, num) {
-    
-    for(i=0;i<num;i++){
+
+    for (i = 0; i < num; i++) {
         lista.push(i)
         console.log(lista)
     }
-    return 
+    return
 }
 
 let lista = []
